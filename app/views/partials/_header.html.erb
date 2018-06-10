@@ -1,7 +1,12 @@
-<nav class="navbar bg-dark">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light header">
   <a href="/" class="navbar-brand nav-link">
     <%= image_tag('transforma_logo.png', alt: 'Transforma logo', class: 'navbar-logo')%>
     <p class="navbar-text">Trans<span class="navbar-text-accent">Forma</span></p>
   </a>
-  <a href="/about-us" class="nav-link about-us-link">Acerca de</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse navbar-menu" id="navbarToggler">
+    <a href="/about-us" class="nav-link about-us-link">Acerca de nosotros</a>
+  </div>
 </nav>
