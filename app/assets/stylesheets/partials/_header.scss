@@ -1,0 +1,30 @@
+.navbar {
+  box-shadow: 0 -5px 15px $color-shadow;
+  justify-content: flex-end;
+}
+
+.navbar-logo {
+  width: 30px;
+}
+
+.navbar-text {
+  color: $color-logo-blue;
+  margin: 0;
+}
+
+.navbar-text-accent {
+  color: $color-logo-yellow;
+}
+
+.navbar-brand {
+  color: $color-text-accent;
+}
+
+.navbar-menu {
+  justify-content: flex-end;
+}
+
+.about-us-link {
+  color: $color-text-normal;
+  display: inline-block;
+}
