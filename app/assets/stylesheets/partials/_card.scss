@@ -1,0 +1,62 @@
+.card-container {
+  border-radius: 10px;
+  box-shadow: 0 0 10px -2px $color-shadow;
+  font-family: $font-primary;
+  margin: 10px;
+
+  @media #{$tablet} {
+    max-width: 320px;
+  }
+
+  @media #{$desktop} {
+    max-width: 320px;
+  }
+}
+
+.card-image-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.profile-info {
+  text-align: center;
+
+}
+
+.profile-label {
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+}
+
+.salary-result-container {
+  text-align: center;
+}
+
+.salary-status-container {
+  text-align: center;
+}
+
+.salary-status {
+  border-radius: 5px;
+}
+
+.salary-normal {
+  background-color: $color-success;
+  color: $color-text-accent;
+}
+
+.salary-higher {
+  background-color: $color-danger;
+  color: $color-text-accent;
+}
+
+.salary-lower {
+  background-color: $color-warning;
+  color: $color-text-accent;
+}
