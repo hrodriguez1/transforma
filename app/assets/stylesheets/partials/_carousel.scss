@@ -1,0 +1,24 @@
+.hero__carousel {
+  background-color: $color-gray;
+  margin-top: 70px;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel {
+  background: $color-background-carousel;
+}
+
+.carousel-cell {
+  align-items: center;
+  background: $color-green;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  margin-right: 10px;
+  width: 100%;
+}
